@@ -1,10 +1,12 @@
-# Managing Home Assistant Lights via LaunchDarkly Feature Flags
+# Release light 💡 with LaunchDarkly and Home Assistant
 
 Inspired by [this](https://www.youtube.com/watch?v=-n0weDGWTy8) LaunchDarkly introduction video to feature flags I decided to build an actual light switch controlled via LaunchDarkly feature flags.
 
 [![LaunchDarkly Feature Flags](https://img.youtube.com/vi/-n0weDGWTy8/0.jpg)](https://www.youtube.com/watch?v=-n0weDGWTy8)
 
 The Python script presented evaluates a [LaunchDarkly](https://launchdarkly.com/) feature flag called `HomeAssistantLight` and uses the [Home Assistant](https://www.home-assistant.io/) home automation API to control a smart light switch based on the targeting status of the feature flag.
+
+https://user-images.githubusercontent.com/18030370/198258660-579f4824-0812-4d3a-b5f8-2000c0a93636.mov
 
 ### Do I need Home Assistant?
 
